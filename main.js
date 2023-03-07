@@ -1,4 +1,4 @@
-//  character data
+//  character data: by hassan
 const charactersData = [
   { name: "Ghostface", franchise: "Scream", image: "images/Ghostface.jpg", link:"ghostface.html" },
   { name: "Michael Myers", franchise: "Halloween", image: "images/michaelmyers.jpg" },
@@ -7,7 +7,7 @@ const charactersData = [
   { name: "Pennywise", franchise: "It", image: "images/pennywise.jpg" }
 ];
       
-// function to render character boxes
+// function to render character boxes: by marwan
 function renderCharacters(characters) {
   const search = document.getElementById("characters")
   if (document.getElementById("search-container")){
@@ -44,14 +44,14 @@ function renderCharacters(characters) {
 }
 
 
-// function to search for characters
+// function to search for characters: by hassan
 function searchCharacters() {
   const searchText = document.getElementById("search-box").value.toLowerCase();
   const filteredCharacters = charactersData.filter(character => character.name.toLowerCase().includes(searchText));
   renderCharacters(filteredCharacters);
 }
 
-//  event listener to search button
+//  event listener to search button: by marwan 
 document.getElementById("search-button").addEventListener("click", searchCharacters);
 
 

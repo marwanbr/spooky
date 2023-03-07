@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spooky</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Box icons-->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link Swiper's CSS -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+      <a href="#" class="logo">
+        <i class='bx bxs-face'></i> Characters
+      </a>
+       <div class="bx bx-menu" id="menu-icon"></div>
+
+       <!-- Menu -->
+       <u1 class="navbar">
+          <li><a href="#home" class="home-active">Home</a></li>
+          <li><a href="#characters">Characters</a></li>
+       </u1>
+       
+    </header>
+    
+    <!--Home-->
+    
+    <section class="characters" id="characters">
+  <div class="search-container">
+    <input type="text" placeholder="Search character..." id="search-box">
+    <button type="button" id="search-button">Search</button>
+  </div>
+  
+</section>
+
+    <section class="home" id="home">
+      <div class="swiper-wrapper">
+        <!-- Box 1 -->
+        <div class="swiper-slide container">
+          <img src="images/properhome.jpg" alt="">
+          <div class="home-text">
+            <span class="title">Spooky</span>
+            <h1>Your Favorite <br> Halloween Costumes</h1>
+            
+            <a href="#" class="look">
+              <i class='bx bx-closet'></i>
+          </div>
+          
+
+            </a>
+          </div>
+        </div>
+        
+        <!-- Box 2 -->
+        <div class="swiper-slide container">
+          <img src="images/propertheme2.jpg" alt="">
+          <div class="home-text">   <span class="title">Spooky</span>
+            <h1>Your Favorite <br> Horror Movie Characters</h1>
+            
+            <a href="#" class="look">
+              <i class='bx bx-closet'></i></div>
+         
+
+            </a>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- Characters -->
+    <section class="characters" id="characters">
+      <h2 class="heading">Popular Characters</h2>
+      <!-- Characters Container -->
+      <div id="characters-container">
+        <!-- Box 1 -->
+        <div class="box">
+        <div class="box-img">
+          <img src="images/Ghostface.jpg" alt="">
+        </div>
+        <h3>Ghostface</h3>
+        <span>The Voice | Scream</span>
+      </div>
+      <!-- Box 2 -->
+      <div class="box">
+        <div class="box-img">
+          <img src="images/michaelmyers.jpg" alt="">
+        </div>
+        <h3>Michael Myers</h3>
+        <span>The Shape | Halloween</span>
+      </div>
+      <!-- Box 3 -->
+      <div class="box">
+        <div class="box-img">
+          <img src="images/FreddyKrueger.jpg" alt="">
+        </div>
+        <h3>Freddy Krueger</h3>
+        <span>The Springwood Slasher | A Nightmare on Elm Street</span>
+      </div>
+      <!-- Box 4 -->
+      <div class="box">
+        <div class="box-img">
+          <img src="images/hanniballecter.jpg" alt="">
+        </div>
+        <h3>hannibal Lecter</h3>
+        <span>Hannibal the Cannibal | Hannibal</span>
+      </div>
+      <!-- Box 5 -->
+      <div class="box">
+        <div class="box-img">
+          <img src="images/pennywise.jpg" alt="">
+        </div>
+        <h3>It</h3>
+        <span>Pennywise The Dancing Clown | It</span>
+      </div>
+      </div>
+    </section>
+
+    
+    
+    
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!--Link To Custom JS-->
+    <script src="main.js"></script>
+    <!--Link To jquery-->
+    <script src="jquery.js"></script>
+    
+</body>
+</html>

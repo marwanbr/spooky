@@ -1,0 +1,21 @@
+.fred{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#gelements{
+    position: relative;
+    padding: 1em 0;
+    margin: 0;
+    text-align:center;
+    color: black;
+    border: solid;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+#C{
+  background-image: url(https://gifsec.com/wp-content/uploads/2022/10/happy-halloween-gif-21.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
